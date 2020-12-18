@@ -8,6 +8,7 @@ import com.wf.ds.utils.net.INetCallBack;
 
 public class MainPresenterImpl extends BasePresenter<MainContract.IMainView> implements MainContract.IMainPresenter{
 
+
     private MainContract.IMainModel mainModel;
 
     public MainPresenterImpl(MainContract.IMainView mainView) {

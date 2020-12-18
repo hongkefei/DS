@@ -18,10 +18,6 @@ import com.wf.ds.utils.net.URLConstant;
 
 public class LoginActivity extends BaseActivity<MainPresenterImpl> implements MainContract.IMainView {
 
-//    现在代码处于dev分支上，注意看，我现在切换回主分支
-
-//    继续在这里写
-
     private EditText editTextTextPersonName;
     private EditText editTextTextPassword;
     @Override
@@ -32,7 +28,6 @@ public class LoginActivity extends BaseActivity<MainPresenterImpl> implements Ma
     protected void initView() {
         editTextTextPersonName.findViewById(R.id.editTextTextPersonName);
         editTextTextPassword.findViewById(R.id.editTextTextPassword);
-
     };
 
     @Override

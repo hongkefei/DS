@@ -5,6 +5,7 @@ import com.wf.ds.model.UserBean;
 import com.wf.ds.utils.net.INetCallBack;
 
 public class MainContract {
+//    oahjfkajsd f;lsadkf
     public interface IMainModel {
         <T> void getLoginData(String url,INetCallBack<T> callBack);
     }
