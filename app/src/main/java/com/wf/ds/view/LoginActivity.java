@@ -18,6 +18,9 @@ import com.wf.ds.utils.net.URLConstant;
 
 public class LoginActivity extends BaseActivity<MainPresenterImpl> implements MainContract.IMainView {
 
+//    现在代码处于dev分支上，注意看，我现在切换回主分支
+
+
     private EditText editTextTextPersonName;
     private EditText editTextTextPassword;
     @Override
